@@ -151,6 +151,36 @@ main {
      
 }
 
+.pesquisar {
+  background-color: white;
+  padding: 6px 10px;
+  width: 40%;
+  border-radius: 20px;
+  border: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.input-pesquisar {
+    border: none;
+    background-color: transparent;
+    outline: none;
+    border-bottom: 1px solid black;
+    border-radius: 0;
+    width: 85%;
+ 
+}
+
+.carrinho{
+    border-radius: 50%;
+    background-color:#A9A9A9;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
 
 
 
