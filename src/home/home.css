@@ -19,14 +19,18 @@ input {
     width: 6rem;
     background-color: #B8C2C0;
     border-radius: 7px;
-    
-    
+
 }
 
 .aviao-img {
-    width: 9rem;
-    height: 100%;
-    
+    width: 10rem;
+}
+
+.aviao-img:hover{
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+    transition: all 0.5s;
+    cursor: pointer;
 }
 
 ul {
@@ -37,7 +41,10 @@ ul {
 }
 
 li:hover {
-    text-decoration: underline solid;
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+    transition: all 0.5s;
+    cursor: pointer;
 }
 
 .menu-1 {
@@ -56,6 +63,19 @@ li:hover {
     justify-content: space-around;
 }
 
+i:hover{
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.title {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: Courier, monospace;
+    font-size: 70px;
+}
 
 main {
     background-image: url("./imagens/Capa-homepage.png");
@@ -65,10 +85,7 @@ main {
     height: 20rem;
     margin-top: 5rem;
     box-shadow: 0px 0px 17px 5px grey;
-}
-
-.title {
-    color: black;
+    opacity: 0.7;
 }
 
 .produtos {
@@ -103,7 +120,38 @@ main {
 
 .footer-menu{
     width: 100%;
-    height: 15rem;
+    height: 12rem;
     background-color: #0f0f0f;
     margin-top: 200px;
+    box-shadow: 0px 0px 17px 5px grey;
     }
+
+.footer-contato{
+    color: white;
+    font-size: 20px;
+    font-family: Montserrat, sans-serif;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.footer-imagens{
+    width: 4rem;
+    height: 2rem;
+}
+
+.footer-imagem1{
+    width: 2rem;
+    height: 2rem;
+}
+
+.picture{
+    display: flex;
+    justify-content: space-around;
+     
+}
+
+
+
+
+
