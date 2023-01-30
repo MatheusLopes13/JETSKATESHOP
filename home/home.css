@@ -130,7 +130,7 @@ main {
 .footer-contato{
     color: white;
     font-size: 20px;
-    font-family: Montserrat, sans-serif;
+    font-family: Courier, monospace;
     display: flex;
     justify-content: space-around;
 
@@ -174,7 +174,6 @@ main {
 
 .carrinho{
     border-radius: 50%;
-    background-color:#A9A9A9;
     width: 30px;
     height: 30px;
     display: flex;
@@ -188,6 +187,7 @@ main {
     height: inherit;
     opacity: .7;
 }
+
 
 
 
