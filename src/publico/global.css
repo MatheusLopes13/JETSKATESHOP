@@ -58,13 +58,19 @@ input {
     width: 10rem;
 }
 
-.aviao-img:hover{
+.aviao-img:hover {
     -webkit-transform: scale(1.5);
     transform: scale(1.5);
     transition: all 0.5s;
     cursor: pointer;
 }
 
+.destaque:hover {
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+    transition: all 0.5s;
+    cursor: pointer;
+}
 ul {
     display: flex;
     justify-content: space-around;
@@ -99,6 +105,16 @@ li:hover {
     justify-content: space-around;
 }
 
+.input-pesquisar {
+    border: none;
+    background-color: transparent;
+    outline: none;
+    border-bottom: 1px solid black;
+    border-radius: 0;
+    width: 85%;
+ 
+}
+
 
 
 .box-contatos {
@@ -113,9 +129,15 @@ li:hover {
     
 }
 
-.espaçamento-footer {
-    width: 50%;
-}
+.pesquisar {
+    background-color: white;
+    padding: 6px 10px;
+    width: 40%;
+    border-radius: 20px;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+  }
 
 .margin-contatos {
     min-width: 23rem;
