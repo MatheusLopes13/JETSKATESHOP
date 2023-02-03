@@ -2,6 +2,7 @@
     padding: 0%;
     margin: 0%;
     box-sizing: border-box;
+    font-family: Montserrat, sans-serif;
 }
 
 footer {
@@ -46,12 +47,6 @@ header {
     align-items: center;
     box-shadow: 5px 5px 15px gray;
 
-}
-
-input {
-    width: 6rem;
-    background-color: #B8C2C0;
-    border-radius: 7px;
 }
 
 .aviao-img {
