@@ -1,0 +1,49 @@
+
+.meu-carrinho {
+    text-align: center;
+    margin-top: 4rem;
+    font-size: 3rem;
+    letter-spacing: 1rem;
+
+}
+
+.box {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0 3rem;
+    margin-top: 4rem;
+    font-size: 2rem;
+    letter-spacing: 1rem;
+
+}
+
+.produto {
+    width: 100%;
+    display: flex;
+    margin-top: 2rem;
+    padding: 2rem;
+    border-top: 1px solid black;
+}
+
+img {
+    width: 10rem;
+    height: 10rem;
+}
+
+.valor-produto {
+    display: flex;
+}
+
+
+.valor {
+    margin-left: 52rem;
+}
+
+.tamanho-font {
+    font-size: 1rem;
+}
+
+div.valor-produto p {
+    font-size: 15px;
+}
