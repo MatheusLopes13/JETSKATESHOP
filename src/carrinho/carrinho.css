@@ -1,10 +1,16 @@
+ul a {
+    color:black;
+}
+.i-delete {
+    margin-left: 2rem;
+}
 
 .meu-carrinho {
     text-align: center;
     margin-top: 4rem;
     font-size: 3rem;
     letter-spacing: 1rem;
-
+    
 }
 
 .box {
@@ -15,13 +21,13 @@
     margin-top: 4rem;
     font-size: 2rem;
     letter-spacing: 1rem;
-
+    
 }
 
 .produto {
     width: 100%;
     display: flex;
-    margin-top: 2rem;
+    margin: 2rem 0;
     padding: 2rem;
     border-top: 1px solid black;
 }
@@ -46,4 +52,36 @@ img {
 
 div.valor-produto p {
     font-size: 15px;
+}
+
+.subtotal {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 3rem;
+}
+
+.frete {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 3rem;
+    margin: 2rem 0;
+}
+
+.total {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid black;
+    padding: 3rem;
+}
+
+.button-finalizar {
+    width: 10rem;
+    height: 2rem;
+    background-color: blue;
+    border-radius: 4px;
+    color: white;
+
 }
