@@ -3,6 +3,11 @@ ul a {
 }
 .i-delete {
     margin-left: 2rem;
+    color: red;
+}
+
+i{
+    color: black;
 }
 
 .meu-carrinho {
@@ -80,8 +85,13 @@ div.valor-produto p {
 .button-finalizar {
     width: 10rem;
     height: 2rem;
-    background-color: blue;
+    background-color: #0615e9;
     border-radius: 4px;
     color: white;
+}
 
+.button-finalizar:hover{
+    background-color: #000983;
+    transition: all 0.5s;
+    cursor: pointer;
 }

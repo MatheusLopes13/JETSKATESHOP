@@ -8,6 +8,12 @@
     top: 13rem;
 }
 
+ul a{
+    color: black;
+}
+i{
+    color: black;
+ }
 
 main {
     width: 100%;

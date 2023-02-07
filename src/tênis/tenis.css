@@ -9,6 +9,13 @@ main{
         display: flex;
         margin-top: 6rem;    
  } 
+ ul a{
+    color: black;
+ }
+
+ i{
+    color: black;
+ }
 
  .filter{
     border-radius: 5px;
