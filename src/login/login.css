@@ -67,32 +67,3 @@
 .fb-image {
     height: 90%;
 }
-
-ul a {
-    color: black;
-}
-
-.buttom-black:hover{
-   
-    transition: all 0.5s;
-    cursor: pointer;
-    background-color: black;
-}
-
-.buttom-facebook:hover {
-    
-    transition: all 0.5s;
-    cursor: pointer;
-    background-color: #4075c5;
-
-}
-
-.input-pesquisar {
-    border: none;
-    background-color: transparent;
-    outline: none;
-    border-bottom: 1px solid black;
-    border-radius: 0;
-    width: 85%;
- 
-}
