@@ -9,7 +9,7 @@ footer {
     display: flex;
     width: 100%;
     height: 12rem;
-    background-color:#D9D9D9;
+    background-color:#000000;
     margin-top: 200px;
     box-shadow: 0px 0px 17px 5px grey;
     padding: 2rem;
@@ -17,7 +17,7 @@ footer {
     }
 
 .footer-contato{
-    color: white;
+    color: rgb(255, 242, 242);
     font-size: 20px;
     display: flex;
     justify-content: space-around;
@@ -76,6 +76,7 @@ ul {
 
 .font-padrao {
     font-family: Montserrat, sans-serif;
+    color: #D9D9D9;
 }
 
 li:hover {
@@ -119,7 +120,7 @@ li:hover {
 
 .box-pagamentos {
     width: 30%;
-    border-left: 1px solid black;
+    border-left: 1px solid rgb(255, 246, 246);
     border-radius: 10px;
     padding: 9px;
     
@@ -146,6 +147,7 @@ margin-top: 1rem;
 .espaco-contatos {
     display: flex;
     margin-top: 1rem;
+    color: #D9D9D9;
 }
 
 .alinhamento-contatos {
