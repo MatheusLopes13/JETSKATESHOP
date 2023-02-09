@@ -54,15 +54,6 @@ main {
     margin-top: 64px;
 }
 
-.carrinho{
-    border-radius: 50%;
-    width: 30px;
-    height: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
-}
 
 .img-home {
     width: 100%;
