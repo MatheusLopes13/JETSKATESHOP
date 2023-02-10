@@ -17,33 +17,58 @@ i{
 
 main {
     width: 100%;
-    height: 20rem;
     margin-top: 5rem;
-    box-shadow: 0px 0px 17px 5px grey;
     display: flex;
+    align-items: center;
     justify-content: center;
 }
 
-.produtos {
+.cabecalho{
+width: 65%;
+height: 15rem;
+}
+
+h3 {
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 5rem;
+    letter-spacing: 1.5rem;
+    font-family: Montserrat, sans-serif;
+}
+.container{
     display: flex;
     background-color: white;
     width: 100%;
-    height: 15rem;
+    height: 25rem;
     justify-content: center;
     align-items: center;
     padding: 1rem 8rem;
     margin-top: 64px;
+}
 
+.container-2{
+    display: flex;
+    background-color: white;
+    width: 100%;
+    height: 25rem;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 8rem;
+    margin-top: 64px;
+    flex-wrap: wrap;
 }
 
 
-.box {
+.produto{
     width: 25%;
     height: 100%;
     margin: 7px;
     background-color: white;
-    border-radius: 5px;
-    box-shadow: 0px 0px 17px 5px grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 7px;
+
 }
 
 .video {
@@ -64,17 +89,32 @@ main {
     
 }
 
-.img-home {
-    width: 100%;
-    height: inherit;
-    opacity: .9;
+.container img {
+    width: 15rem;
+    height: 15rem;
+    padding-bottom: 1rem;
+    
 }
 
-.destaque2:hover {
+.img-home {
+    width: 100%;
+    height: 34rem;
+    box-shadow: 0px 0px 17px 5px grey;
+   
+}
+main div {
+    width: 70%;
+    height: 35rem;
+}
+
+.produto img:hover {
     -webkit-transform: scale(1.0);
     transform: scale(1.2);
     transition: all 0.5s;
     cursor: pointer;
 }
 
-
+.produto-container-2{    
+    min-height: 300px;
+    width: 32%;
+}

@@ -32,6 +32,7 @@ i{
 .produto {
     width: 100%;
     display: flex;
+    justify-content: space-between;
     margin: 2rem 0;
     padding: 2rem;
     border-top: 1px solid black;
@@ -45,11 +46,15 @@ img {
 .valor-produto {
     display: flex;
 }
-
-
-.valor {
-    margin-left: 52rem;
+.valor-produto:hover{
+    opacity: 0.5;
+    transition: all 0.5s;
+    cursor: pointer;
 }
+
+
+
+
 
 .tamanho-font {
     font-size: 1rem;
@@ -94,4 +99,9 @@ div.valor-produto p {
     background-color: #000983;
     transition: all 0.5s;
     cursor: pointer;
+}
+
+.display-flex {
+    display: flex;
+    justify-content: space-between;
 }

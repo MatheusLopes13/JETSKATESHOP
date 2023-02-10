@@ -4,26 +4,28 @@
     box-sizing: border-box;
 }
 
-main{
-        height: 100%;
+.main{
+        justify-content: space-between;
         display: flex;
         margin-top: 6rem;    
- } 
- ul a{
-    color: black;
- }
+} 
 
- i{
+ul a{
     color: black;
- }
+}
 
- .filter{
+i{
+    color: black;
+}
+
+.filter{
     border-radius: 5px;
     box-shadow: 0px 0px 17px 5px grey;
     padding: 1rem;
     border-radius: 10px;
     background-color: #D9D9D9;
     letter-spacing: 1px;
+    height: 60%;
 }
 
 .filter p{
@@ -35,7 +37,6 @@ main{
 }
 
 .input2{
-    display: flex;
     margin: 8px;
     text-align: center;
     flex-direction: column;
@@ -52,6 +53,7 @@ main{
     transition: all 0.5s;
     cursor: pointer;
     opacity: 0.4;
+
 }
 .limpar{
     font-family:Montserrat, sans-serif;
@@ -66,29 +68,22 @@ main{
     cursor: pointer;
 }
 .produtos{
-    margin:0 3rem 10rem 10rem;
-    padding-left: 14rem;
     display: flex;
     flex-wrap: wrap;
-    gap: .8rem;
-    height: 15rem;
+    width: 70%;
+    gap: 10px;
+    height: auto;
+    padding-right: 5rem;
 }
 
 .destaque2{    
-    flex-wrap: wrap;
-    display: flex;
-    height: 100%;
-    width: 15rem;
+    min-height: 300px;
+    width: 32%;
     background-color: white;
     border-radius: 5px;
     box-shadow: 0px 0px 17px 5px grey;
 }
-.destaque2:hover {
-    -webkit-transform: scale(1.0);
-    transform: scale(1.2);
-    transition: all 0.5s;
-    cursor: pointer;
-}
+
 
 
 
@@ -117,53 +112,6 @@ main{
 
 
 
-
-
-
-
-
-
-
-
-
-/**
-
-
-
-
-
-
-     .produtos{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-     }
-
-     .produtos .destaque2{
-     margin: 1rem 5rem;
-     width: 30%;
-     border-radius: 5px;
-     box-shadow: 0px 0px 17px 5px grey;
-     }
-    p{
-        text-align: left;
-    }
-    
-    .destaque2:hover {
-        -webkit-transform: scale(1.0);
-        transform: scale(1.2);
-        transition: all 0.5s;
-        cursor: pointer;
-    }
-
-    .input-pesquisar {
-    border: none;
-    background-color: transparent;
-    outline: none;
-    border-bottom: 1px solid black;
-    border-radius: 0;
-    width: 85%;
-}
 
 
 
