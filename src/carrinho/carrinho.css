@@ -82,7 +82,8 @@ div.valor-produto p {
 .button-finalizar {
     width: 10rem;
     height: 2rem;
-    background-color: #0615e9;
+    background-color: #202899;
+    border: none;
     border-radius: 4px;
     color: white;
 }
