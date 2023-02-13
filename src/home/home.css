@@ -109,3 +109,9 @@ main div {
     min-height: 300px;
     width: 32%;
 }
+.truck img{
+    width: 13rem;
+    height: 7rem;
+    padding-bottom: 1rem; 
+
+}
