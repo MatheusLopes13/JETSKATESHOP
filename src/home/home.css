@@ -115,3 +115,12 @@ main div {
     padding-bottom: 1rem; 
 
 }
+
+.produto button {
+    cursor: pointer;
+    background-color: #202899;
+    border-radius: 4px;
+    color: white;
+    padding: 4px;
+    border: none;
+}
