@@ -5,6 +5,15 @@
     font-family: Montserrat, sans-serif;
 }
 
+header i{
+    color: black;
+}
+
+
+header ul a{
+    color: black;
+}
+
 ::-webkit-scrollbar{
 	width: 6px;
 	background-color: #0e836f;
@@ -81,7 +90,7 @@ header {
     transition: all 0.5s;
     cursor: pointer;
 }
-ul {
+header ul {
     display: flex;
     justify-content: space-around;
     list-style-type: none;
@@ -93,7 +102,7 @@ ul {
     color: #D9D9D9  ;
 }
 
-li:hover {
+header li:hover {
     -webkit-transform: scale(1.5);
     transform: scale(1.5);
     transition: all 0.5s;
