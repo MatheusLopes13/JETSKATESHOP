@@ -12,15 +12,18 @@ header i{
 
 header ul a{
     color: black;
+    text-decoration: none;
+
 }
 
 ::-webkit-scrollbar{
-	width: 6px;
-	background-color: #0e836f;
+	width: .7rem;
+	background-color:transparent;
 }
 ::-webkit-scrollbar-thumb{
-	border-radius:0;
-	background-color: #D9D9D9;
+	border-radius: 5px;
+    background-color: #D9D9D9;
+
 }
 footer {
     display: flex;
@@ -65,12 +68,8 @@ header {
     align-items: center;
     box-shadow: 5px 5px 15px gray;
     list-style-type: none;
-     margin: 0;
-     padding: 0;
-     overflow: hidden;
-     position: -webkit-sticky;
-     position: sticky;
-     top: 0;
+    position: fixed;
+    top: 0;
 }
 
 .aviao-img {
