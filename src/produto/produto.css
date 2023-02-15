@@ -15,6 +15,8 @@ height: 8rem;
 
 .box-2 {
 display: flex;
+align-items: center;
+padding-left: 1rem;
 
 }
 .box-2 img {
@@ -23,7 +25,12 @@ display: flex;
 }
 
 .box-2 button{
-width: 5rem;
+width: 2rem;
+height: 3rem;
+background-color: transparent;
+border: none;
+cursor: pointer;
+
 }
 
 .box-3 {
@@ -43,6 +50,8 @@ margin-left: 5rem;
 .tamanhos button {
     width: 2rem;
     height: 2rem;
+    border-radius: 7px;
+
     
 }
 
@@ -53,9 +62,21 @@ justify-content: space-around;
 align-items: center;
 }
 
+.adicionar-item button {
+    width: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+
 .button-comprar button {
     width: 10rem;
     height: 2rem;
+    border: none;
+    background: #202899;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
 .preco {
