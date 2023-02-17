@@ -6,10 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../publico/global.css">
-    <link rel="stylesheet" href="./carrinho.css">
+    <link rel="stylesheet" href="./pagamento.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,400&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/e8ac9f753c.js" crossorigin="anonymous"></script>
-    <title>Jet skateshop - Carrinho</title>
+    <title>Pagamento</title>
 </head>
 
 
@@ -18,7 +18,7 @@
         <div class="menu-1">
             <ul>
                 <li>
-                    <a href="../tênis/tenis.html">Tênis</a>
+                   <a href="../tênis/tenis.html">Tênis</a>
                 </li>
                 <li>
                     <a href="../roupas/roupas.html">Roupas</a>
@@ -26,118 +26,65 @@
                 <li>
                     <a href="../skate/skate.html">Skate</a>
                 </li>
-            
             </ul>  
         </div>
         
-        <a href="../home/home.html">
-            <img class="aviao-img menu-2" src="../publico/imagens/Jet skateshop 2.png" alt="imagem  aviao">
-        </a>
-
+        
+        <img class="aviao-img menu-2" src="../publico/imagens/Jet skateshop 2.png" alt="imagem  aviao">
+    
+        
         <div class="menu-3">
+
             <div class="pesquisar">
                 <i class="fa-solid fa-magnifying-glass destaque"></i>
                 <input class="input-pesquisar">
             </div>
-            <div class="carrinho">
-            <i class="fa-solid fa-cart-shopping destaque"></i>
-                
-            </div>
-                <a href="../login/login.html">
-                    <i class="fa-solid fa-user destaque"></i>
-                </a>
-            </div>
+
+            <a href="../carrinho/carrinho.html">
+                <i class="fa-solid fa-cart-shopping destaque"></i>        
+            </a>
+
+            <a href="../login/login.html">
+
+                <i class="fa-solid fa-user destaque"></i>
+
+            </a>
+            
+            
+            
+        </div>
 
 
     </header>
 
-    
-     
-
     <main>
         <div>
-            <p class="meu-carrinho">MEU CARRINHO</p>
-            <div class="box">
-    
-                <p>
-                    produto
-                </p>
-    
-                <p>
-                    subtotal
-                </p>
-            </div>
-        </div>   
+            <h1 class="titulo">PAGAMENTO</h1>
 
-        <div class="produto">
-            <div class="display-flex">
-                <img src="../publico/Imagens-produtos/pngtree-back-of-white-tshirt-mockup-realistic-style-png-image_2004256.jpg"camisa-preta">
-                <div>
-                    <p>Camisa Branca</p>
-                    <p>preto - m</p>
-                    <p>R$ 000,00</p>
-                    <p> 1 und</p>
+            <div class="pai">
+                <div class="blocos">
+                    <p class="forma-pagamento">Dados do cartão</p>
+                   
+                        <input type="text" placeholder="Informe o número do cartão">
+                        <input type="text" placeholder="Validade(MM/AA)">
+                        <input type="text" placeholder="CVV">    
                 </div>
-            </div>
-    
-            <div class="valor-produto">
-                <p class="valor">
-                    R$ 000,00 
-                </p>
-                <i class="fa-solid fa-xmark i-delete"></i>
-            </div>
-        </div>
-        
-    
-        <div class="produto">
-            <div class="display-flex">
-                <img src="../publico/Imagens-produtos/images.jpg" alt="camisa-preta">
-                <div>
-                    <p>Truck Venture</p>
-                    <p>prata - 149</p>
-                    <p>R$ 000,00</p>
-                    <p> 1 und</p>
+                <div class="blocos">
+                    <p class="forma-pagamento">Endereço de entrega</p>
+                 <input type="text" placeholder="Digite seu CEP">
+                 <input type="text" placeholder="Digite seu endereço">
+                 <input type="text" placeholder="Ponto de refêrencia">
+                
                 </div>
+                 
+                    
             </div>
-    
-            <div class="valor-produto">
-                <p class="valor">
-                    R$ 000,00 
-                </p>
-                <i class="fa-solid fa-xmark i-delete"></i>
-            </div>
-        </div>
-        <div class="subtotal">
-            <p>SUBTOTAL</p>
-            <p>R$ 000,00</p>
-        </div>
-    
-        <div class="frete">
-            <p>FRETE:</p>
-            <p>R$ 000,00</p>
-        </div>
-    
-        <div class="total">
-            <p>TOTAL:</p>
-            <p>R$ 000,00</p>
-        </div>
-    
-        <div class="total">
-            <a href="../home/home.html">Ver mais produtos</a>
-            
-            <a href="../pagamento/pagamento.html">
-                <button class="button-finalizar">
-                    Finalizar compra
-                </button>
-            </a>
-        </div>
+            <button>
+                        Realizar Compra    
+            </button>
 
+        </div>
     </main>
-
-    
-    
-
-
     <footer class="footer-menu">
         <div class="box-contatos">
 
@@ -185,7 +132,7 @@
                 <img class="footer-imagens" src="../publico/imagens/imagem.visa.jpeg"  alt="elo">
             </div>
 
-            <div class="margin-box-pagamentos">
+            <div  class="margin-box-pagamentos">
                 <img class="footer-imagens" src="../publico/imagens/imagem.mastercard.jpeg"  alt="mastercard">
                 <img class="footer-imagens" src="../publico/imagens/imagem.mastercard.jpeg"  alt="mastercard">
             </div>
@@ -193,3 +140,8 @@
         </div>
 
     </footer>
+
+    </body>
+
+
+</html>

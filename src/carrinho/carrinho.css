@@ -1,3 +1,8 @@
+main { 
+    padding: 10rem;
+
+}
+
 ul a {
     color:black;
 }
@@ -12,7 +17,7 @@ i{
 
 .meu-carrinho {
     text-align: center;
-    margin-top: 4rem;
+    margin-top: 7rem;
     font-size: 3rem;
     letter-spacing: 1rem;
     
@@ -35,7 +40,8 @@ i{
     justify-content: space-between;
     margin: 2rem 0;
     padding: 2rem;
-    border-top: 1px solid black;
+    border: 1px solid black;
+    border-radius: 5px;
 }
 
 img {
