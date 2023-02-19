@@ -1,0 +1,70 @@
+
+.recuperar-senha{
+    width: 100%;
+    min-height:25rem; 
+    padding-top: 10rem; 
+    display: flex;
+    justify-content: center; 
+}
+.inserir-email{
+    width: 35rem;
+    height: 15rem;
+    display: flex;
+    flex-direction: column; 
+    justify-content:center;
+    align-items: center;
+    background-color: #D9D9D9;
+    border-radius: 5px;
+    box-shadow: 0px 0px 17px 5px grey;
+        
+}
+.inserir-email p,input,div{
+    padding: 2%;
+}
+.input-email{
+    width: 100%;
+}
+.button{
+    width: 100%;
+    display: flex;
+    margin-top: 5px;
+    padding: 0;
+    justify-content: 3rem;
+}
+.button button{
+    width: 25%;
+    height: 180%;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
