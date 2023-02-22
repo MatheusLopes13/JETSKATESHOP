@@ -31,8 +31,7 @@ footer {
     height: 12rem;
     justify-content: space-between;
     background-color:black;
-    margin-top: 10rem;
-    box-shadow: 0px 0px 17px 5px grey;
+    margin-top: 7rem;
     padding: 2rem;
     }
 
@@ -70,6 +69,7 @@ header {
     list-style-type: none;
     position: fixed;
     top: 0;
+    z-index: 1;
 }
 
 .aviao-img {
