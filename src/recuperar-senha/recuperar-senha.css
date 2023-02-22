@@ -30,15 +30,37 @@
     margin-top: 5px;
     padding: 0;
     justify-content: 3rem;
+    gap: 5px;
+    color: white;
+    
+    
 }
-.button button{
+.button1{
+    width: 25%;
+    height: 180%;
+    background-color: rgb(71, 71, 71);
+    color: white;
+    letter-spacing: .3rem;
+    list-style-type: none;
+    
+    
+    
+}.button2{
     width: 25%;
     height: 180%;
     background-color: #aca6a6;
     color: white;
     letter-spacing: .3rem;
-    
-    
+        
+}
+.button button a{
+    color: white;
+    text-decoration: none
+}
+.button1:hover{
+    transition: all 0.5s;
+    cursor: pointer;
+    background-color: black;
 }
 
 
