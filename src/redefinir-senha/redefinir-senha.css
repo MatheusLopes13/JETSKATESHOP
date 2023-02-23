@@ -8,7 +8,7 @@
 }
 .inserir-email{
     width: 35rem;
-    height: 21rem;
+    height: 24rem;
     display: flex;
     flex-direction: column; 
     justify-content:center;
@@ -21,11 +21,10 @@
 }
 .inserir-email input{
     padding: 2%;
-
-    
+    gap:3rem;   
 }
 
-.input-email{
+.input-password{
     width: 100%;
 }
 .button{
