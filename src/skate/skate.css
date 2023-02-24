@@ -19,13 +19,16 @@ i{
 }
 
 .filter{
+    
     border-radius: 5px;
     box-shadow: 0px 0px 17px 5px grey;
     padding: .4rem;
     border-radius: 10px;
     background-color: #D9D9D9;
     letter-spacing: 1px;
-    height: 60%;
+    height: auto;
+    z-index: 1;
+    position: fixed;
     
    
 }
@@ -81,6 +84,7 @@ i{
     gap: 10px;
     height: auto;
     padding-right: 5rem;
+    margin-left: 15rem
 }
 
 .destaque2{    
@@ -108,18 +112,20 @@ i{
     cursor: pointer;
 }
 
+
 .produtos h1{
     width: 100%;
     padding-top: 3rem;
 }
 .produtos button{
     border: none;
-    font-family: Montserrat, sans-serif;
-    cursor: pointer;
-    background-color: #202899;
-    border-radius: 4px;
-    color: white;
-    padding: 4px;
+font-family: Montserrat, sans-serif;
+cursor: pointer;
+background-color: #30b3db;
+border-radius: 4px;
+color: white;
+padding: 4px;
+letter-spacing: 1px;
 
 
 }
