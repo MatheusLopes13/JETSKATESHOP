@@ -29,10 +29,8 @@ i{
     height: auto;
     z-index: 1;
     position: fixed;
-    
-   
+       
 }
-
 .filter p{
     margin-bottom: 1rem;
     font-size:1rem; 
@@ -45,6 +43,7 @@ i{
     margin: 8px;
     text-align: center;
     flex-direction: column;
+    
 }
 
 .input-tamanho{
@@ -116,6 +115,7 @@ i{
 .produtos h1{
     width: 100%;
     padding-top: 3rem;
+    padding-bottom: 4rem;
 }
 .produtos button{
     border: none;
@@ -146,6 +146,29 @@ letter-spacing: 1px;
     
 }
 .truck img:hover {
+    -webkit-transform: scale(1.0);
+    transform: scale(1.1);
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.rodas{
+    min-height: 300px;
+    width: 32%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    gap:1rem;
+
+
+}
+.rodas img{
+    height: 150px;
+    gap: 10rem;
+
+}
+.rodas img:hover {
     -webkit-transform: scale(1.0);
     transform: scale(1.1);
     transition: all 0.5s;
