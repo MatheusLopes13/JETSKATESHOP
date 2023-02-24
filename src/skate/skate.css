@@ -19,17 +19,18 @@ i{
 }
 
 .filter{
+    
     border-radius: 5px;
     box-shadow: 0px 0px 17px 5px grey;
     padding: .4rem;
     border-radius: 10px;
     background-color: #D9D9D9;
     letter-spacing: 1px;
-    height: 60%;
-    
-   
+    height: auto;
+    z-index: 1;
+    position: fixed;
+       
 }
-
 .filter p{
     margin-bottom: 1rem;
     font-size:1rem; 
@@ -42,6 +43,7 @@ i{
     margin: 8px;
     text-align: center;
     flex-direction: column;
+    
 }
 
 .input-tamanho{
@@ -63,6 +65,11 @@ i{
     letter-spacing: 1px;
     text-align: center;
     margin-top: 15px;
+    border: none;
+    padding: 4px;
+    background-color: #30b3db;
+    border-radius: 4px;
+    color: white;
 }
 .limpar:hover{
     background-color: #b4b0b0;
@@ -72,10 +79,11 @@ i{
 .produtos{
     display: flex;
     flex-wrap: wrap;
-    width: 70%;
+    width: 80%;
     gap: 10px;
     height: auto;
     padding-right: 5rem;
+    margin-left: 15rem
 }
 
 .destaque2{    
@@ -85,6 +93,7 @@ i{
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap:1rem;
 }
 .destaque2 img{
     width: auto;
@@ -93,21 +102,31 @@ i{
     max-height:300px;
     min-height:300px; 
     min-width:auto;
+    margin-top: 2rem;
     
 }
+.destaque2 img:hover {
+    -webkit-transform: scale(1.0);
+    transform: scale(1.1);
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
 
 .produtos h1{
     width: 100%;
     padding-top: 3rem;
+    padding-bottom: 4rem;
 }
 .produtos button{
     border: none;
-    font-family: Montserrat, sans-serif;
-    cursor: pointer;
-    background-color: #202899;
-    border-radius: 4px;
-    color: white;
-    padding: 4px;
+font-family: Montserrat, sans-serif;
+cursor: pointer;
+background-color: #30b3db;
+border-radius: 4px;
+color: white;
+padding: 4px;
+letter-spacing: 1px;
 
 
 }
@@ -119,11 +138,40 @@ i{
     flex-direction: column;
     align-items: center;
     margin: auto;
-
+    gap:1rem;
 
 }
 .truck img{
     height: 70px;
     gap: 10rem;
     
+}
+.truck img:hover {
+    -webkit-transform: scale(1.0);
+    transform: scale(1.1);
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.rodas{
+    min-height: 300px;
+    width: 32%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    gap:1rem;
+
+
+}
+.rodas img{
+    height: 150px;
+    gap: 10rem;
+
+}
+.rodas img:hover {
+    -webkit-transform: scale(1.0);
+    transform: scale(1.1);
+    transition: all 0.5s;
+    cursor: pointer;
 }
