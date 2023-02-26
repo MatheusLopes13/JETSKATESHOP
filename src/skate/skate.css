@@ -101,16 +101,19 @@ i{
     padding-top: 3rem;
 }
 .produtos button{
+    font-family:Montserrat, sans-serif;
+    font-size: .9rem;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-top: 15px;
     border: none;
-    font-family: Montserrat, sans-serif;
-    cursor: pointer;
-    background-color: #202899;
+    background-color: #30b3db;
     border-radius: 4px;
     color: white;
     padding: 4px;
 
-
 }
+
 .truck{
     min-height: 300px;
     width: 32%;
@@ -119,9 +122,8 @@ i{
     flex-direction: column;
     align-items: center;
     margin: auto;
-
-
 }
+
 .truck img{
     height: 70px;
     gap: 10rem;

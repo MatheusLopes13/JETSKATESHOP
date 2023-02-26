@@ -62,10 +62,10 @@ i{
     text-align: center;
     margin-top: 15px;
     border: none;
-    padding: 4px;
     background-color: #30b3db;
     border-radius: 4px;
     color: white;
+    padding: 4px;
 }
 
 .produtos{
@@ -108,7 +108,7 @@ background-color: #30b3db;
 border-radius: 4px;
 color: white;
 padding: 4px;
-letter-spacing: 1px;
+ letter-spacing: 1px;
 }
 
 .destaque2 img:hover {
