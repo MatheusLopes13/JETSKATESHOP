@@ -24,8 +24,7 @@ i{
     background-color: #D9D9D9;
     letter-spacing: 1px;
     height: 60%;
-    z-index: 1;
-    position: fixed;
+
 }
 
 .filter p{
@@ -116,4 +115,19 @@ padding: 4px;
     transform: scale(1.1);
     transition: all 0.5s;
     cursor: pointer;
+}
+
+@media (max-width: 600px){
+    .produtos{
+        width: 100%;
+     }
+     
+     .c.destaque2{
+         flex-wrap: wrap;
+     }
+     
+     .img-produto{
+         height: auto;
+     }
+     
 }
