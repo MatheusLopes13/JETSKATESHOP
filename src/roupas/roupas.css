@@ -1,0 +1,146 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.main{
+        justify-content: space-between;
+        display: flex;
+        margin-top: 6rem;    
+} 
+
+ul a{
+    color: black;
+}
+
+i{
+    color: black;
+}
+
+.filter{
+    padding: 1rem;
+    border-radius: 10px;
+    background-color: #e7e7e7;
+    letter-spacing: 1px;
+    height: min-content;
+    margin-top: 4rem;
+
+}
+
+.filter p:first-child {
+    font-size: 27px;
+}
+
+.filter p{
+    margin-top: 2rem;
+    font-size:1rem; 
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+<<<<<<< HEAD
+.input2{
+    margin: 10px;
+=======
+.input2 {
+>>>>>>> 85f8a765095d8a43fe09b72954b145e3f310158e
+    text-align: center;
+}
+
+.input-tamanho{
+    display: flex;
+    margin: 6px;
+    text-align: center;
+    gap:8px;
+}
+.input2 input:hover{
+    background-color: #b4b0b0;
+    transition: all 0.5s;
+    cursor: pointer;
+    opacity: 0.4;
+
+}
+.limpar{
+    font-family:Montserrat, sans-serif;
+    font-size: .9rem;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-top: 15px;
+    border: none;
+    background-color: #30b3db;
+    border-radius: 4px;
+    color: white;
+}
+
+.produtos{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    gap: 12px;
+    height: auto;
+    padding-right: 7rem;
+    margin-left: 15rem;
+    width: 80%;
+    gap: 12px;
+    height: auto;
+    box-sizing: border-box;
+}
+
+.destaque2 img:hover {
+    transform: scale(1.2);
+    transition: all 0.5s;
+    cursor: pointer;
+>>>>>>> 85f8a765095d8a43fe09b72954b145e3f310158e
+}
+
+.destaque2{    
+    min-height: 300px;
+    width: 32%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.produtos div img {
+width: 90%;
+height: 70%;
+padding: 1rem;
+}
+
+.comprar-adicionar {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 14px;
+}
+
+button {
+border: none;
+font-family: Montserrat, sans-serif;
+cursor: pointer;
+background-color: #30b3db;
+border-radius: 4px;
+color: white;
+padding: 4px;
+<<<<<<< HEAD
+ letter-spacing: 1px;
+=======
+margin-top: 17px;
+
+>>>>>>> 85f8a765095d8a43fe09b72954b145e3f310158e
+}
+
+button:first-child {
+    margin-top: 3px;
+}
+
+
+.destaque2 img:hover {
+    -webkit-transform: scale(1.0);
+    transform: scale(1.1);
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
