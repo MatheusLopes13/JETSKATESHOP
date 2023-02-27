@@ -211,4 +211,8 @@ gap: 2rem;
                 
     }
 
+    header{
+        width: auto;
+    }
+
 }
