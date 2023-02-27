@@ -28,7 +28,7 @@ footer{
     display: flex;
     width: 100%;
     height: 12rem;
-    justify-content: space-between;
+    justify-content:space-around;
     background-color:black;
     margin-top: 7rem;
     padding: 2rem;
@@ -143,9 +143,10 @@ header li:hover {
     width: 30%;
     border-left: 1px solid rgb(245, 243, 243);
     border-radius: 10px;
-    padding-left: 3rem;
+    padding-left: 1rem;
     display: flex;
-    
+    flex-wrap: wrap;
+    justify-content: space-between;  
 }
 
 .pesquisar {
@@ -208,6 +209,10 @@ gap: 2rem;
     .espaco-contatos{
         flex-wrap: wrap;
                 
+    }
+
+    header{
+        width: auto;
     }
 
 }

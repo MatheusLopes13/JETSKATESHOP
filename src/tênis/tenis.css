@@ -118,16 +118,27 @@ padding: 4px;
 }
 
 @media (max-width: 600px){
+    
     .produtos{
         width: 100%;
-     }
+        flex-direction: column;
+        margin-left: 7rem;          
+    }
      
      .c.destaque2{
          flex-wrap: wrap;
-     }
+    }
      
      .img-produto{
          height: auto;
-     }
+    }
      
+     .produtos div img{
+        width: 50vw;
+    }
+
+     .main{
+        flex-direction: row;
+        
+    }
 }
