@@ -144,8 +144,6 @@ header li:hover {
     border-left: 1px solid rgb(245, 243, 243);
     border-radius: 10px;
     padding-left: 1rem;
-    display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;  
 }
 
@@ -185,12 +183,11 @@ gap: 2rem;
 }
 
 @media(max-width:600px){
+
     .footer-contato{
         flex-wrap: wrap;
-        width: 25%;
-               
-               
     }
+
     .box-pagamentos{
         flex-wrap: wrap;
         width: 100%;
@@ -198,17 +195,16 @@ gap: 2rem;
         padding-left: 9rem;   
         margin-top: 2rem;
         padding-left: 30%;
-        
     }
+
     footer{
+        display: flex;
         flex-wrap: wrap;
-        height: auto;
-        
+        height: auto; 
     }
 
     .espaco-contatos{
-        flex-wrap: wrap;
-                
+        flex-wrap: wrap;         
     }
 
     header{
