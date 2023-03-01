@@ -182,3 +182,11 @@ letter-spacing: 1px;
     transition: all 0.5s;
     cursor: pointer;
 }
+
+@media (max-width: 600px){
+    .produtos{
+        width: 100%;
+        margin-left: 11rem
+    }
+
+}
