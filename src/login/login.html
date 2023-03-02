@@ -88,12 +88,14 @@
             <div class="input-line">
                 <div class="inputs">
                     <label>Nome</label>
-                    <input type="text">
+                    <input type="text" id="nome">
+                    <p class="mensagem" id="nome-aviso">Campo nome obrigatório</p>
                 </div>
         
                 <div class="inputs">
                     <label>Sobrenome</label>
-                    <input type="text">
+                    <input type="text" id="sobrenome">
+                    <p class="mensagem" id="sobrenome-aviso">Campo sobrenome obrigatório</p>
                 </div>
 
             </div>
@@ -101,23 +103,27 @@
     
             <div class="inputs">  
                 <label>E-mail</label>  
-                <input type="email">
+                <input type="email" id="logar">
+                <p class="mensagem" id="logar-aviso">Campo email obrigatório</p>
             </div>
     
             <div class="input-line">
                 <div class="inputs">  
                     <label>Senha</label>
-                    <input type="password">    
+                    <input type="password" id="entrar"> 
+                    <p class="mensagem" id="entrar-aviso">Campo senha obrigatório</p>
+
                 </div>
         
                 <div class="inputs">  
                     <label>Confirmar senha</label>
-                    <input type="password">    
+                    <input type="password" id="confirma"> 
+                    <p class="mensagem" id="confirma-aviso">Campo confirmar senha obrigatório</p>   
                 </div>
 
             </div>
             
-            <button class="buttom-black">Cadastrar</button>
+            <button onclick="cadastrar()" class="buttom-black">Cadastrar</button>
             
         </div>
     </div>
