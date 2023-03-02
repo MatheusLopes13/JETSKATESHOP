@@ -138,5 +138,8 @@ h3 {
 .img-home{
     height: auto;
 }
-
+ 
+h3{
+    font-size: unset;
+}
 }
