@@ -13,6 +13,11 @@ function entrar(){
         adicionarClasseErro(senha,mensagem)
     } 
 
+    if(senha.value.length < 8){
+        alert('Informe uma senha com no mínimo 8 caracteres');
+        
+    }
+
 }
 
 
@@ -58,6 +63,18 @@ function cadastrar(){
         adicionarClasseErro(confirma, mensagem)
 
     }
+
+    if(entrar.value.length < 8){
+        alert('Informe uma senha com no mínimo 8 caracteres');
+        
+    }
+
+    if(confirma.value.length < 8){
+        alert('Informe uma senha com no mínimo 8 caracteres');
+        
+    }
+
+    
 
 
   
