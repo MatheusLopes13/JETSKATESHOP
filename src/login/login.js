@@ -3,20 +3,19 @@ function entrar(){
     const senha = document.getElementById('senha');
     
 
-    if(email.value === ""){
+    if(email.value === "" || validarEmail(email.value) === false){
         let mensagem = document.getElementById('email-aviso')
         adicionarClasseErro(email, mensagem);
+        alert('Por favor, preencha o seu email!')
     }
   
-    if(senha.value === '') {
+    if(senha.value === '' || senha.value.length < 8) {
         let mensagem = document.getElementById('senha-aviso')
         adicionarClasseErro(senha,mensagem)
+        alert('Informe uma senha com no mínimo 8 caracteres');
     } 
 
-    if(senha.value.length < 8){
-        alert('Informe uma senha com no mínimo 8 caracteres');
-        
-    }
+    
 
 }
 
@@ -46,33 +45,41 @@ function cadastrar(){
 
     }
 
-    if(logar.value === ''){
+    if(logar.value === '' || validarEmail(email.value) === false){
         let mensagem = document.getElementById('logar-aviso')
         adicionarClasseErro(logar, mensagem)
+        alert("Por favor, preencha seu email!")
 
     }
 
-    if(entrar.value === ''){
+    if(entrar.value === '' || entrar.value.length < 8){
         let mensagem = document.getElementById('entrar-aviso')
         adicionarClasseErro(entrar, mensagem)
+        alert('Informe uma senha com no mínimo 8 caracteres');
 
     }
 
-    if(confirma.value === ''){
+    if(confirma.value === '' || confirma.value.length < 8){
         let mensagem = document.getElementById('confirma-aviso')
         adicionarClasseErro(confirma, mensagem)
-
-    }
-
-    if(entrar.value.length < 8){
         alert('Informe uma senha com no mínimo 8 caracteres');
-        
     }
 
-    if(confirma.value.length < 8){
-        alert('Informe uma senha com no mínimo 8 caracteres');
         
+}
+
+function validarEmail(email){
+    const emailRegex = new RegExp (/^[a-zA-Z0-9._-]+@[a-z.]+\.[a-zA-Z]{2,}$/);
+
+    if(emailRegex.test(email)){
+        return true;
     }
+        return false;
+
+}
+
+
+
 
     
 
@@ -80,5 +87,4 @@ function cadastrar(){
   
 
     
-}
 
