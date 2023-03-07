@@ -4,7 +4,8 @@ window.onload = () => {
 
 const obj = {
     nome: "corta vento",
-    valor: "R$ 3300"
+    valor: "R$ 3300",
+    id: 001
 }
 
     function popularProduto(){
@@ -15,8 +16,13 @@ const obj = {
         }
         
         popularProduto()
+
         
+
+
+
 }
+
 
 
 
