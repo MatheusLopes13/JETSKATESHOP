@@ -48,11 +48,38 @@ function pagar(){
  
     }
 
-   
-
-
 
 }
+
+        function capturaInput () {
+            let cepNumber = document.getElementById("cep").value
+        
+            if(cepNumber.length == 8) {
+                buscarCep(cepNumber)
+            }
+        }
+
+     
+
+        function buscarCep(cep){
+            
+            const opcoes = {
+                method: "Get",
+                mode: "cors",
+                cache:"default"
+            }
+            fetch(`https://viacep.com.br/ws/${cep}/json/`, opcoes)
+            .then(resposta => {resposta.json()
+            .then(data => {document.getElementById('endereco').value = data.logradouro;})
+            })
+            .catch(erro => console.log("erro"))
+    
+        }
+
+        
+    
+
+    
 
 
 

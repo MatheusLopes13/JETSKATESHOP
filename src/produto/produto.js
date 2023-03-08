@@ -1,5 +1,5 @@
 
-let numero = 1;
+
 const produto = [
     {
         id: 1,
@@ -38,9 +38,10 @@ const produto = [
 
 ]
 
-let result = "";
+
 
 window.onload = () => {
+
     let quantidade = document.getElementById("quantidade").innerText;
     if (quantidade == 1) {
         document.getElementById("botao-menos").disabled = true;
@@ -56,6 +57,9 @@ window.onload = () => {
     createSizes(result.tamanhos)
    
 }
+let result = "";
+
+
 
 
 function populaProduto(obj) {
@@ -88,13 +92,12 @@ function createSizes(arr) {
         }
     });
 
-   
-
-
-    
 
 }
 
+// Funções que adicionam e excluem quantidade de produtos.
+
+let numero = 1;
 
 function adicionar() {
     numero += 1;
@@ -111,7 +114,7 @@ function adicionar() {
 function excluir() {
     numero = numero - 1;
     document.getElementById("quantidade").innerText = numero;
-    if (numero == 1 || numero < 1) {
+    if (numero == 1) {
         document.getElementById("botao-menos").disabled = true;
     }
     else {

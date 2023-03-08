@@ -66,11 +66,14 @@ window.onload = () => {
         valueProduct.appendChild(buttonDelet)
         newProduct.appendChild(valueProduct)
 
+        document.getElementById("valor-total").innerText = "R$ " + obj.valor
+
     
          container.appendChild(newProduct)
 
     }
 
+    //função que cria um elemento e da um valor a ele.
     function createElement_(element, text) {
         let elemento = document.createElement(element);
         elemento.innerText = text;
@@ -78,7 +81,9 @@ window.onload = () => {
         return elemento
     }
 
-    createDiv(produto[0])    
+    
+    //chamando a função de criar os produtos.
+    createDiv(produto[2])    
 
 }
 
