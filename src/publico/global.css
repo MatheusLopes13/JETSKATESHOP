@@ -107,6 +107,10 @@ header li:hover {
     cursor: pointer;
 }
 
+.dropdown{
+    display: none;
+}
+
 .menu-1 {
     min-width: 30%;
 }
@@ -207,6 +211,34 @@ gap: 2rem;
         flex-wrap: wrap;         
     }
 
+    .dropdown{
 
+        display:block;
+        margin-bottom: 2.5rem;
+        
+                       
+    }
 
+    .btn-secondary, .btn:hover{
+        background-color: #D9D9D9;
+        color: black;
+        border:none;
+        position: fixed;
+        
+                
+    }
+
+    .menu-1{
+        display: none;
+    }
+
+    .pesquisar{
+        display: none;
+    }
+
+    .aviao-img{
+        margin-left: 6rem;
+    }
+
+    
 }
