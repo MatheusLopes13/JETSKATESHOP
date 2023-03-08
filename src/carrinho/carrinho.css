@@ -46,6 +46,7 @@ i{
 img {
     width: 10rem;
     height: 10rem;
+    
 }
 
 .valor-produto {
@@ -59,6 +60,7 @@ img {
 
 div.valor-produto p {
     font-size: 15px;
+    margin-right: 1rem;
 }
 
 .subtotal {
@@ -102,4 +104,13 @@ div.valor-produto p {
 .display-flex {
     display: flex;
     justify-content: space-between;
+}
+
+.container {
+    width: 100%;
+    
+}
+
+.margin-left {
+margin-left: 2rem;
 }
