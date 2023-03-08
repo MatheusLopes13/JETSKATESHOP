@@ -50,3 +50,8 @@ button {
     
 }
 
+.mensagem{
+    display: none;
+    color: red;
+}
+
