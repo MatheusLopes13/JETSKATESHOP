@@ -3,28 +3,37 @@ let numero = 1;
 const produto = [
     {
         id: 1,
-        imagem: "../publico/imagens/cadeado.png",
+        imagem: "../publico/Tênis/New Balance/tiago-preto.png",
         nome: "Tiago lemos",
         valor: 600,
+        cor: "preto",
+        tamanhos: [38,39,40,42]
        
     },
     {
         id: 2,
-        imagem: "../publico/imagens/cadeado.png",
+        imagem: "../publico/Roupas/calca-verde.png",
         nome: "Calça Chino",
-        valor: 450
+        valor: 450,
+        cor: "verde",
+        tamanhos: [38,40,42]
     },
     {
         id: 3,
-        imagem: "../publico/imagens/cadeado.png",
+        imagem: "../publico/Roupas/polar-marrom.jpg",
         nome: "Polar shirt",
-        valor: 300
+        valor: 300,
+        cor: "marrom",
+        tamanhos: ["p", "g"]
+
     },
     {
         id: 4,
-        imagem: "../publico/imagens/cadeado.png",
+        imagem: "../publico/Roupas/polar-azul.png",
         nome: "Polar shirt",
-        valor: 150
+        valor: 150,
+        cor: "azul",
+        tamanhos: ["m","gg"]
     }
 
 ]
@@ -44,16 +53,46 @@ window.onload = () => {
 
     populaProduto(result)
 
+    createSizes(result.tamanhos)
    
 }
 
 
 function populaProduto(obj) {
     document.getElementById("nome-produto").innerText = result.nome;
+    document.getElementById("cor-produto").innerText = result.cor;
     document.getElementById("imagem-produto").src = result.imagem;
     document.getElementById("valor-produto").innerText = "R$ " + result.valor;
     let valorParcelado = result.valor/ 3;
     document.getElementById("valor-parcelado").innerText = "Ou em até 3x de R$ " + valorParcelado + " sem juros."
+}
+
+function createSizes(arr) {
+    let container = document.getElementById("container");
+
+    let sizes = document.createElement("div");
+    sizes.classList.add("tamanhos");
+    container.appendChild(sizes)
+
+    arr.forEach(item => {
+        let button = document.createElement("button")
+        button.innerText = item;
+        sizes.appendChild(button)
+
+        button.onmouseover = () => {
+            button.classList.add("cursor-sizes")
+        }
+
+        button.onmouseleave = () => {
+            button.classList.remove("cursor-sizes")
+        }
+    });
+
+   
+
+
+    
+
 }
 
 

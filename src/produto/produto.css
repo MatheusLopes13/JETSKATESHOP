@@ -91,3 +91,8 @@ align-items: center;
 .tamanho {
     margin-top: 2rem;
 }
+
+.cursor-sizes {
+    cursor: pointer;
+    background-color: #999898;
+}

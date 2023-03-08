@@ -4,28 +4,36 @@ window.onload = () => {
     const produto = [
         {
             id: 1,
-            imagem: "./src/publico/imagens/cadeado.png",
-            nome: "Tiago Lemos",
-            valor: 600
+            imagem: "./src/publico/Tênis/New Balance/tiago-preto.png",
+            nome: "Tiago lemos",
+            valor: 600,
+            cor: "preto",
+            tamanhos: [38,39,40,42]
         },
         {
             id: 002,
-            imagem: "./src/publico/imagens/cadeado.png",
+            imagem: "./src/publico/Roupas/calca-verde.png",
             nome: "Calça Chino",
             valor: 450,
+            cor: "verde",
+            tamanhos: [38,40,42]
           
         },
         {
             id: 003,
-            imagem: "./src/publico/imagens/cadeado.png",
+            imagem: "./src/publico/Roupas/polar-marrom.jpg",
             nome: "Polar shirt",
-            valor: 300
+            valor: 300,
+            cor: "marrom",
+            tamanhos: ["p", "g"]
         },
         {
             id: 004,
-            imagem: "./src/publico/imagens/cadeado.png",
+            imagem: "./src/publico/Roupas/polar-azul.png",
             nome: "Polar shirt",
-            valor: 150
+            valor: 150,
+            cor: "azul",
+            tamanhos: ["m","gg"]
         }
 
 
