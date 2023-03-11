@@ -68,11 +68,12 @@ function pagar(){
                 mode: "cors",
                 cache:"default"
             }
+
             fetch(`https://viacep.com.br/ws/${cep}/json/`, opcoes)
             .then(resposta => {resposta.json()
             .then(data => {document.getElementById('endereco').value = data.logradouro;})
             })
-            .catch(erro => console.log("erro"))
+            .catch(erro => console.log("erro" + erro))
     
         }
 

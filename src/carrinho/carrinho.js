@@ -7,6 +7,7 @@ window.onload = () => {
             nome: "New Blance Tiago Lemos",
             valor: 600,
             cor: "preto",
+            tamanhos: [38,39,40,42]
             
         },
         {
@@ -14,21 +15,24 @@ window.onload = () => {
             imagem: "../publico/Roupas/calca-verde.png",
             nome: "Calça Chino",
             valor: 450,
-            cor: "verde"
+            cor: "verde",
+            tamanhos: [38,40,42]
         },
         {
             id: 003,
             imagem: "../publico/Roupas/polar-marrom.jpg",
             nome: "Polar shirt",
             valor: 300,
-            cor: "marrom"
+            cor: "marrom",
+            tamanhos: ["p", "g"]
         },
         {
             id: 004,
             imagem: "../publico/Tênis/nike/dunk-marrom.png",
             nome: "nike Dunk",
             valor: 150,
-            cor: "azul"
+            cor: "azul",
+            tamanhos: ["m","gg"]
         }
 
      
@@ -83,7 +87,7 @@ window.onload = () => {
 
     
     //chamando a função de criar os produtos.
-    createDiv(produto[2])    
+    createDiv(produto[1])    
 
 }
 

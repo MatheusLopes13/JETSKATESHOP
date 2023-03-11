@@ -7,8 +7,8 @@ const produto = [
         nome: "Tiago lemos",
         valor: 600,
         cor: "preto",
-        tamanhos: [38,39,40,42]
-       
+        tamanhos: [38, 39, 40, 42]
+
     },
     {
         id: 2,
@@ -16,7 +16,7 @@ const produto = [
         nome: "Calça Chino",
         valor: 450,
         cor: "verde",
-        tamanhos: [38,40,42]
+        tamanhos: [38, 40, 42]
     },
     {
         id: 3,
@@ -33,7 +33,7 @@ const produto = [
         nome: "Polar shirt",
         valor: 150,
         cor: "azul",
-        tamanhos: ["m","gg"]
+        tamanhos: ["m", "gg"]
     }
 
 ]
@@ -41,6 +41,25 @@ const produto = [
 
 
 window.onload = () => {
+    let imgPrincipal = document.getElementById("imagem-produto");
+    let imgOne = document.getElementById("img-one");
+    let imgTwo = document.getElementById("img-two");
+    let imgTre = document.getElementById("img-tre");
+
+imgOne.onmouseover = () => {
+     imgPrincipal.src = imgOne.src
+}
+
+imgTwo.onmouseover = () => {
+     imgPrincipal.src = imgTwo.src
+    
+}
+
+imgTre.onmouseover = () => {
+    imgPrincipal.src = imgTre.src
+}
+
+
 
     let quantidade = document.getElementById("quantidade").innerText;
     if (quantidade == 1) {
@@ -55,9 +74,11 @@ window.onload = () => {
     populaProduto(result)
 
     createSizes(result.tamanhos)
-   
+
 }
-let result = "";
+
+
+
 
 
 
@@ -66,8 +87,11 @@ function populaProduto(obj) {
     document.getElementById("nome-produto").innerText = result.nome;
     document.getElementById("cor-produto").innerText = result.cor;
     document.getElementById("imagem-produto").src = result.imagem;
+    let imgOne = document.getElementById("img-one").src = result.imagem
+    document.getElementById("img-one").src = result.imagem;
+
     document.getElementById("valor-produto").innerText = "R$ " + result.valor;
-    let valorParcelado = result.valor/ 3;
+    let valorParcelado = result.valor / 3;
     document.getElementById("valor-parcelado").innerText = "Ou em até 3x de R$ " + valorParcelado + " sem juros."
 }
 
@@ -92,8 +116,13 @@ function createSizes(arr) {
         }
     });
 
-
 }
+
+// função que troca as imagens na tela.
+
+
+
+
 
 // Funções que adicionam e excluem quantidade de produtos.
 
